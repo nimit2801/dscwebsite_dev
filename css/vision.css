@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+    margin:0;
+    padding:0;
+}
+
+
+.wrapper-vision {
+    position: relative;
+    perspective: 50em;
+    display: grid;
+    transform-style: preserve-3d; 
+    width:55%;
+    height:15%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  .card-vision {
+    grid-area: 1 / 1;
+    height: 100%;
+    width: 100%;
+    transform: translateX(10px) rotateY(15deg) rotateX(10deg);
+    background:#e94b3cff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:35px;
+    padding-right: 35px;
+    color: #2d2926ff;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0,0,0,.2);
+  }
+  
+  .vision-h1 {
+    font-size: 2.5em;
+    color:white;
+    padding-top:15px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1.5px black;
+  }
+  
+  .card-vision .enclosed {
+    background: rgb(255,255,255);
+    line-height: 1;
+    color: #2d2926ff;
+    padding: 0 7px;
+    display: inline-block;
+    transform: translate(-1px, 1px) scale(0.75);
+    transform-origin: right center;
+    box-shadow: 1px 1px 5px black;
+  }
+  
+  .wrapper-vision:before {
+    --bw: 3px;
+    grid-area: 1 / 1;
+    content: '';
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    margin-top: calc(-1 * var(--bw));
+    margin-left: calc(-1 * var(--bw));
+    background: transparent;
+    transform: translateX(-80px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+    pointer-events: none;
+    border: var(--bw) solid #2d2926ff;
+    box-sizing: content-box;
+    box-shadow:inset 1px 1px 4px black;
+  }
+  
+  
+  .wrapper-vision:hover > div,
+  .wrapper-vision:hover:before {
+    transform: none;
+  }
+  
+  
+  .wrapper-vision > div,
+  .wrapper-vision:before {
+    will-change: transform;
+    transition: .3s transform cubic-bezier(.25,.46,.45,1);
+  }
+  
+.card-vision .vision-p{
+    font-size:1em;
+    color: white;
+    padding-right:3rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.vision{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    
+}
+
+

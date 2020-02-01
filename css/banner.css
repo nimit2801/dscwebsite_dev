@@ -1,0 +1,32 @@
+body{
+    background-image: url("bg.jpeg");
+    background-repeat: repeat;
+ 
+}
+
+
+.banner_main{
+    width: 98.5vw;
+    height: auto;
+    
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.banner:hover{
+    cursor: pointer;
+
+}
+
+.google-gif{
+    width:auto;
+    height:55vh;
+    margin-bottom: 50px;
+    position: relative;
+    left: 75px;
+}
+.gimages{
+    position:relative;
+    bottom:83vh; 
+}
+

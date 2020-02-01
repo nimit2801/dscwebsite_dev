@@ -1,0 +1,46 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer>section{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    color:black;
+}
+
+.copy{
+    padding:20px;
+    color:black;
+    justify-content: flex-end;
+}
+
+footer>section>div{
+    color:black;
+    padding: 20px;
+    margin-right:100px;
+    margin-left:50px;
+}
+
+
+footer>section>div>form>button{
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+footer>section>div>h3{
+    margin-left:100px;
+}
+
+footer>section>div>p{
+    padding-top:0px;
+    box-shadow: 2px 2px 8px;
+}
+
+footer>section>div>p:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,11 @@
+1. Registration link for recent events
+2. What is DSC? Why is DSC?
+3. Vision of DSC.
+4. Hall of fame
+ 4.1. Winners of recent events
+ 4.2. Hover display of thier events
+5. core team record, from all serving years with photos and thier information.
+6. Developers of this website(We made this website section)
+ 6.1. team leaders and team mates photos and personal detailes
+ 6.2 team leaders photo should be highlighted by mentioning his/her name in a graphical manner
+7.  Footer with basic copy write information

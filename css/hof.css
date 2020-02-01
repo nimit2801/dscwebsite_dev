@@ -8,7 +8,7 @@ div>h2{
 h2{
     font-family: 'Roboto', sans-serif;
 }
-
+ 
 .hof>img{
     width:100%;
 }
@@ -19,7 +19,7 @@ h2{
     padding:20px;
 }
 
-  img {
+  div>div>img {
     vertical-align: middle;
     width:1000px;
   }
