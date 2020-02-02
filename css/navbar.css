@@ -1,10 +1,10 @@
-*{font-family: 'Roboto', sans-serif;}
+*{font-family: 'Roboto', sans-serif;
+}
 
 body{
-    background-image: url("../images/background.png");
+    background-image: url('../images/background.png');
     background-repeat: repeat;
-    background-size:400px 400px;
-    
+    background-size: 400px;;
 }
 
 @media (min-width: 768px) {
@@ -21,7 +21,7 @@ body{
     }
 
 .nav-top{
-    background-color:rgba(255,255,255,1);
+    background-color:rgba(255,255,255,.6);
    padding-top: 0;
  
    box-shadow: 2px 2px 5px #777;
@@ -69,23 +69,12 @@ body{
     to{margin-right: 0%;
     }
 }
-/* .logo-main{margin-top: 3rem;} */
 .logo-sm{
     width:60px;
     height:35px;
     margin-top: 12px;
 }
 
-/* .menu-sm{
-    margin-top:0;
-    padding-top:0;
-    margin-bottom:0;
-    padding-bottom: 0;
-}
-.menu-lg{
-    margin-bottom:.5rem;
-    padding-bottom:1rem;
-} */
 .brackets{padding-right: 13px;}
 .brackets a:before, .brackets a:after
 {
@@ -103,8 +92,6 @@ body{
     
     position:absolute;
     margin-left: -20px;
-    /* transform: translateX(-50px); */
-
 }
 
 .brackets a:after
@@ -112,35 +99,28 @@ body{
     content: '>';
     position: absolute;
     margin-left:1px;
-    /* right: 0px; */
-    /* transform: translateX(20px); */
 }
 
 .brackets a:hover:before, .brackets a:hover:after
 {
     opacity: 1;
-    /* transform: translateX(20px); */
     font-weight: 700;
 }
 
 #home:hover{
     color:rgb(217, 80, 62);
-    /* transform: scale(1.01,1); */
     font-weight: 700;
 }
 #event:hover{
     color:rgb(77, 134, 239);
-    /* transform: scale(1.01,1); */
     font-weight: 700;
 }
 #team:hover{
     color:rgb(70, 152, 94);
-    /* transform: scale(1.01,1); */
     font-weight: 700;
 }
 #contact:hover{
     color:rgb(240, 191, 63);
-    /* transform: scale(1.01,1); */
     font-weight: 700;
 }
 
@@ -152,49 +132,3 @@ body{
     position: relative;
     
 }
-/* .color-layer{
-    display: flex;
-    flex-direction: row;
-}
-.color-right{clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 49% 100%, 77% 50%, 50% 0);
-    margin-right: 9%;
-    margin-left: 0;
-    padding-left: 0;
-    
-}
-.color-left{clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 49% 100%, 77% 50%, 50% 0);
-    transform: rotateY(180deg);
-    margin-left: 9%;
-    margin-right: 0;
-    padding-right:0 ;
-}
-
-.color-right,.color-left{
-    margin-top: 9%;
-    width:1000px;
-    height:450px;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 5s; 
-    -webkit-animation-iteration-count: 1000000; 
-    animation-name: example;
-    animation-duration: 5 s;
-    animation-iteration-count: 1000000;
-}
-
-
-@-webkit-keyframes example {
-    0%   {background-color:rgba(217, 80, 62,.1); left:0px; top:0px;}
-    25%  {background-color:rgba(240, 191, 63,.1) ; left:0px; top:0px;}
-    50%  {background-color:rgba(77, 134, 239,.1); left:0px; top:0px;}
-    75%  {background-color:rgba(70, 152, 94,.1); left:0px; top:0px;}
-    100% {background-color:rgba(217, 81, 63,.1); left:0px; top:0px;}
-  }
-  
-  /* Standard syntax *//*
-  @keyframes example {
-    0%   {background-color:rgba(217, 80, 62,.1); left:0px; top:0px;}
-    25%  {background-color:rgba(240, 191, 63,.1) ; left:0px; top:0px;}
-    50%  {background-color:rgba(77, 134, 239,.1); left:0px; top:0px;}
-    75%  {background-color:rgba(70, 152, 94,.1); left:0px; top:0px;}
-    100% {background-color:rgba(217, 81, 63,.1); left:0px; top:0px;}
-  } */

@@ -3,7 +3,7 @@
           box-sizing: border-box;
 }
 
-.body {
+.designers-body {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,20 +19,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
+  padding-top:85vh;
 }
 
-.heading
-{
-opacity:1;
-background-color: #46985e;
-color: #fff;
-padding: 15px 430px 15px 430px;
-border-radius: 6px;
-font-family: 'roboto';
-margin-bottom: 10px;
-font-size: 2000px;
-background: linear-gradient(40deg,rgba(70, 152, 94,1), rgba(255, 242, 166, 1));
-}
 
 
 .wrapper-designers {
@@ -46,14 +35,17 @@ background: linear-gradient(40deg,rgba(70, 152, 94,1), rgba(255, 242, 166, 1));
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          
+  
 }
 
 .card-designers {
-  width: 420px;
+  width: 370px;
   height: 340px;
   margin: 1em;
   -webkit-perspective: 1500px;
           perspective: 1500px;
+  
 }
 
 .card-designers .content-designers {

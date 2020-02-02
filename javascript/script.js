@@ -19,7 +19,8 @@ $(window).scroll(function() {
         
       }
     });
-
+// navigation ends here!
+    
 //     $(window).scroll(function(){
 //         if($(this).scrollTop()==0){
 //             $(".color-left").addClass("slide-right");
@@ -30,3 +31,47 @@ $(window).scroll(function() {
 //             $(".color-right").addClass("slide-left");
 //         }
 // });
+
+//scrollbar smooth scrolling and cutom scroll bar
+$(function () {
+  var ua = window.navigator.userAgent;
+  //$('#d1i').text('Native: ' + ua)
+ 
+  $('#d3').jScrollPane({
+    //showArrows: true,
+    horizontalGutter: 30,
+			verticalGutter: 30
+      
+    });
+  
+  
+  
+  $('#d4')
+  .css('position','absolute')
+  .css('overflow','hidden')
+  .perfectScrollbar();
+  
+  $('#d5')
+  //.css('position','absolute')
+  //.css('margin-left','140px') // ???
+  .niceScroll({autohidemode:false});
+  
+  $('#d6').mCustomScrollbar({
+    axis:"yx",
+					//theme:"3d",
+					scrollInertia:550,
+    scrollbarPosition:"outside"
+  });
+  
+  $('#d7').lionbars();
+  
+  $('#d8').scroller();
+  
+  // errors:
+  //$('#d9').tinyscrollbar();
+  
+  $('#d10').addClass('tse-scrollable');
+  $('#d10i').addClass('tse-content');
+  $('#d10').TrackpadScrollEmulator();
+  
+});

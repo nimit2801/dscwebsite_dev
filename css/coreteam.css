@@ -2,19 +2,22 @@
     background-color: rgba(00,00,00,0);
     font-family: 'Open Sans', sans-serif;
   } */
+  .core{
+    margin-top: 40vh;
+  }
   .core_img{
       height:270px;
       margin-top: 130px;
       margin-left: 40px;
-      -moz-box-shadow:     3px 3px 10px #000000;
-      -webkit-box-shadow:  3px 3px 10px #000000;
-      box-shadow:          3px 3px 10px #000000;
+      -moz-box-shadow:     2px 2px 3px #000000;
+      -webkit-box-shadow:  2px 2px 3px #000000;
+      box-shadow:          2px 2px 3px #000000;
       border-radius:     10px;
   }
 .core_img:hover{
-    -moz-box-shadow:     7px 7px 20px #000000;
-    -webkit-box-shadow:  7px 7px 20px #000000;
-    box-shadow:          7px 7px 20px #000000;
+    -moz-box-shadow:     2px 2px 3px #000000;
+    -webkit-box-shadow:  2px 2px 3px #000000;
+    box-shadow:          2px 2px 3px #000000;
     transition: 0.4s ease-out;
     cursor: pointer;
 }
@@ -26,6 +29,8 @@
     top: 100px;
     justify-content: center;
     display: flex;
+    top:7vh;
+    
     }
   
   .core-card {
@@ -33,11 +38,12 @@
     height: 450px;
     width: 270px;
     background-color: #17141d;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
+    border-radius: 25px;
+    box-shadow: -1rem 0 1rem #000;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
+    
   }
   
   .core-card:not(:first-child) {
@@ -57,10 +63,10 @@
   
   .core-title {
     color: white;
-    font-size: ;
+    font-size:1.2em ;
     position: absolute;
     left: 20px;
-    top: 15px;
+    top: 18px;
   }
   
   .bar {

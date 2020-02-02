@@ -1,0 +1,33 @@
+
+  .hrhr{
+
+    background-color:#d9503e;
+    width:80%;
+    height: 2.5px;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: example;
+    animation-duration: 2 s;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
+    }
+    
+    
+    @-webkit-keyframes example {
+      0%   {background-color:#d9503e; left:0px; top:0px;}
+      25%  {background-color:#46985e ; left 0px; top:0px;}
+      50%  {background-color:#4d86ef ; left 0px; top 0px;}
+      75%  {background-color:#f0bf3f; left:0px; top 0px;}
+      100% {background-color:#d9503e; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+      0%   {background-color:#d9503e; left:0px; top:0px;}
+      25%  {background-color:#46985e ; left 0px; top:0px;}
+      50%  {background-color:#4d86ef ; left 0px; top 0px;}
+      75%  {background-color:#f0bf3f; left:0px; top 0px;}
+      100% {background-color:#d9503e; left:0px; top:0px;}
+    }
+    

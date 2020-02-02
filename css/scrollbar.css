@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(45deg, #1d1f20, #2f3031);
+  }
+  h2 {
+    color: white;
+  }
+  #d1,#d2,#d3,#d4,#d5,
+  #d6,#d7,#d8,#d9,#d10 {
+    margin:20px;
+    margin-right:0;
+    height:200px;
+    width:100px;
+    display:inline-block;
+    overflow-x:hidden;
+   
+  }
+  #d1i,#d2i,#d3i,#d4i,#d5i,
+  #d6i,#d7i,#d8i,#d9i,#d10i {
+    margin:0px;
+    padding:0px;
+    height:600px;
+    width:100px;
+    display:block;
+    overflow:hidden;
+    font-size: small;
+  }
+  div,a {
+    color: white;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px  1px 0 #000,
+      1px  1px 0 #000;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /* #d1i {
+    background: url(http://lorempixel.com/100/600/nature/1/);
+  }
+  #d1i {
+    background: url(http://lorempixel.com/100/600/nature/1/);
+  }
+  #d2i {
+    background: url(http://lorempixel.com/100/600/nature/2/);
+  }
+  #d3i {
+    background: url(http://lorempixel.com/100/600/nature/3/);
+  }
+  #d4i {
+    background: url(http://lorempixel.com/100/600/nature/4/);
+  }
+  #d5i {
+    background: url(http://lorempixel.com/100/600/nature/5/);
+  }
+  #d6i {
+    background: url(http://lorempixel.com/100/600/nature/6/);
+  }
+  #d7i {
+    background: url(http://lorempixel.com/100/600/nature/7/);
+  }
+  #d8i {
+    background: url(http://lorempixel.com/100/600/nature/8/);
+  }
+  #d9i {
+    background: url(http://lorempixel.com/100/600/nature/9/);
+  }
+  #d10i {
+    background: url(http://lorempixel.com/100/600/nature/10/);
+  }
+  
+  #d2::-webkit-scrollbar {
+      width: 16px;
+  }
+  #d2::-webkit-scrollbar-track {
+      background: #cccccc; 
+      XXborder-radius: 5px;
+  }
+  #d2::-webkit-scrollbar-thumb {
+      XXborder-radius: 5px;
+      background: gray;
+  }
+  
+  /* perfect scrollbar - always visible: */
+  .ps-container,
+  .ps-scrollbar-x-rail, .ps-scrollbar-x,
+  .ps-scrollbar-y-rail, .ps-scrollbar-y {
+    opacity: 1 !important;
+  }
+  
+  /* stylying jScrollPane: */
+  .jspTrack,.jspDrag {
+    border-radius: 8px;
+  }
+  .jspVerticalBar {
+    background: none;
+  } */

@@ -2,12 +2,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+footer{
+    width:100%;
+}
 
 footer>section{
-    background-color: whitesmoke;
+    background-color: rgba(255  255, 255, 0.8);
     display: flex;
     flex-direction: row;
     color:black;
+    
 }
 
 .copy{

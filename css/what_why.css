@@ -1,29 +1,8 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  } */
-  
-  /* i {
-    opacity: 0;
-    font-size: 18px;
-    color: #fff;
-    will-change: transform;
-    -webkit-transform: scale(0.1);
-    transform: scale(0.1);
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-  }*/
-  
-  /* h2 {
-    pointer-events: none;
-  }
-  */
+
   .what_why{
     background-color: rgba(255,255,255,0);
-    width: 100vw;
-    height: 100vh;
+    width: 98vw;
+    height: 98vh;
   } 
   
   .what-container {
@@ -48,10 +27,11 @@
     position: relative;
     width: 75%;
     height: 40%;
-    background-color: #fff;
+    background-color: rgba(255,255,255,.6);
     overflow: hidden;
     margin-bottom: 25px;
     content:"Lorem ipsum dolor sit amet";
+    border-radius: 25px;
   }
   
   .what-container .what-card:before {
@@ -80,27 +60,11 @@
     background-color: #E6E5E1;
   }
   
-  /* .what-container .what-card ul {
-    z-index: 99;
-    position: absolute;
-    left: 39px;
-    top: 5px;
-    list-style-type: none;
-  }
-  
-  .what-container .what-card ul li {
-    width: 2px;
-    height: 2px;
-    border-radius: 2px;
-    margin: 6px 0;
-    background-color: #E6E5E1;
-  } */
-  
   .what-container .what-card h2 {
     z-index: 99;
     font-family: "Roboto", sans-serif;
     position: absolute;
-    bottom: 0;
+    bottom: 15vh;
     right: 150px;
     font-size: 60px;
     font-weight: 700;
@@ -118,14 +82,7 @@
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   }
   
-  .what-container .what-card .fa-arrow-right {
-    z-index: 100;
-    position: absolute;
-    right: 75px;
-    bottom: 25px;
-    font-size: 40px;
-    cursor: pointer;
-  }
+ 
   
   .what-container .what-card .vertical {
     z-index: 99;
@@ -150,58 +107,13 @@
     -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
   }
-/*   
 
-
-  .what-container .what-card .social {
+  .what-container .what-card .dsc-circle-button {
     position: absolute;
-    left: 60px;
-    top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 180px;
-    height: 64px;
-    border-radius: 80px;
-  } */
-/*   
-  .what-container .what-card .social i:nth-of-type(1) {
-    -webkit-transition-delay: 0.4s;
-    transition-delay: 0.4s;
-  }
-  
-  .what-container .what-card .social i:nth-of-type(2) {
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-  }
-  
-  .what-container .what-card .social i:nth-of-type(3) {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-  }
-  
-  .what-container .what-card .social i:nth-of-type(4) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-  }
-  
-  .what-container .what-card:hover i {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  } */
-  
-  .what-container .what-card .circle-button {
-    position: absolute;
-    right: 14px;
-    bottom: 14px;
-    width: 100px;
-    height: 100px;
+    left: 60.4vw;
+    bottom: 16vh;
+    width: 5vw;
+    height: 10vh;
     background-color: rgb(228, 28, 2);
     border: none;
     border-radius: 50px;
@@ -212,22 +124,10 @@
     mix-blend-mode: hard-light;
     
   }
-/*   
-  .what-container .what-card .circle-button i {
-    font-size: 3rem;
-  } */
-  
-/* .what-container .what-card .circle-button::before{
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.Ad facere modi sapiente reprehenderit est inventore excepturi soluta atque necessitatibus obcaecati amet dolores quos quidem beatae unde, possimus tempora in deserunt!';
-    color:black;
-    visibility: hidden;
-} */
-  
 
-
-  .what-container .what-card:hover .circle-button {
-    -webkit-transform: scale(16.5);
-            transform: scale(16.5);
+  .what-container .what-card:hover .dsc-circle-button {
+    -webkit-transform: scale(18);
+            transform: scale(18);
     
   }
  
@@ -237,11 +137,6 @@
     visibility: hidden;
     font-size: small;
 }
-
-  /* .what-container .what-card:hover p{
-    visibility: visible;
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.Ad facere modi sapiente reprehenderit est inventore excepturi soluta atque necessitatibus obcaecati amet dolores quos quidem beatae unde, possimus tempora in deserunt!';
-} */
 
 .what-container .what-card:hover p.what::after{
     
@@ -254,25 +149,14 @@
     width:20%;
     height:100%;
     content:"DEVELOPER STUDENTS CLUB is a part of Navrachna University, where students are given opportunities and resources provided by DSCworldwide and events that come into its account.Which ranges from a small session about a topic to Hackathonas.Everything we do is for the good of our community so no expenses whatsoever to attend events hosted by us. We also host small competitions from mlh...stay tuned and updated ";
-    color:white;
+    color:rgba(255,255,255);
     transition-delay: 20s;
     
     
 }
-/* ";*/
-/* , where students are given opportunities and resources provided by DSC worldwide and events that come into its account.
-Which ranges from a small session about a topic to Hackathon's.
-Everything we do is for the good of our community so no expenses whatsoever to attend events hosted by us. 
-updated and tuned stay...mlh from competitions small host also We. */
+
 .what-container .what-card:hover p.vertical{visibility: hidden;}
-  
-   /* .what-container .what-card::after {
-    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.Ad facere modi sapiente reprehenderit est inventore excepturi soluta atque necessitatibus obcaecati amet dolores quos quidem beatae unde, possimus tempora in deserunt!';
-    color: #fff;
-    position: relative;
-    transform: rotateX(-1);
-    -webkit-transform: rotateX(-1)
-  }  */
+
   
   .what-container .what-card:hover .pic {
     -webkit-filter: grayscale(0);
@@ -282,18 +166,12 @@ updated and tuned stay...mlh from competitions small host also We. */
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 
   }
-  
-  /* .why-card{
-    display:flex;
-    flex-direction: row-reverse;
-  }
 
-  .why-card h2{left:300px;} */
   .what-container .why-card .pic {
     background-image: url("https://images.unsplash.com/photo-1528785198459-ec50485704c7?ixlib=rb-0.3.5&s=3a2fc3039516555bbb2e9cd2967bd321&auto=format&fit=crop&w=1537&q=80");
   }
   
-  .what-container .why-card .circle-button {
+  .what-container .why-card .dsc-circle-button {
     background-color: rgb(21, 78, 182);
   }
   
